@@ -29,3 +29,5 @@ exibir_poema(
     autor="Tim Peters",
     ano=1999,
 )
+
+# Explicando detalhes: A função exibir_poema recebe um argumento obrigatório data_extenso, que é o título do poema, e um número indefinido de argumentos posicionais (*args) e argumentos nomeados (**kwargs). O texto do poema é montado a partir dos argumentos posicionais, e os metadados são montados a partir dos argumentos nomeados. Por fim, a função exibe o poema com a data por extenso, o texto do poema e os metadados.
